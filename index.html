@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,6 @@
 </head>
 <body>
   <header>
-    <img src="dugule_logo.png" alt="Dugule Logo" height="60" />
     <h1>Dugule</h1>
     <nav>
       <a href="#about">About</a>
@@ -59,6 +57,24 @@
     <h2>Contact Us</h2>
     <p>Email: <a href="mailto:info@dugule.co.za">info@dugule.co.za</a></p>
     <p>Phone: <a href="tel:+27117636595">+27 11 763 6595</a></p>
+
+    <h3>Send us a message:</h3>
+    <form action="https://formspree.io/f/mqkrlzvg" method="POST">
+      <label>Your Name:</label><br>
+      <input type="text" name="name" required><br>
+      <label>Your Email:</label><br>
+      <input type="email" name="email" required><br>
+      <label>Message:</label><br>
+      <textarea name="message" rows="5" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+
+    <h3>Subscribe to our newsletter:</h3>
+    <form action="https://formspree.io/f/mqkrlzvg" method="POST">
+      <input type="email" name="email" placeholder="Your email address" required>
+      <input type="hidden" name="_subject" value="New Newsletter Signup">
+      <button type="submit">Subscribe</button>
+    </form>
   </section>
 
   <footer>
